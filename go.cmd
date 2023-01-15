@@ -39,4 +39,3 @@ liv@dev1:~$ sudo passwd postgres
 liv@dev1:~$ sudo apt-get install lnav
 liv@dev1:~$ sudo lnav /var/log/postgresql/postgresql-15-main.log
 
-
