@@ -20,7 +20,6 @@ liv@dev1:~$ pg_lsclusters
 Ver Cluster Port Status Owner    Data directory              Log file
 15  main    5432 online postgres /var/lib/postgresql/15/main /var/log/postgresql/postgresql-15-main.log
 
-
 @rem Установка паролей (KPM, 99 символов)
 liv@dev1:~$ passwd
 Changing password for liv.
@@ -36,5 +35,8 @@ passwd: password updated successfully
 
 liv@dev1:~$ sudo passwd postgres
 
-@rem Анализ журналов
+@rem Анализ журналов PostgreSQL
 liv@dev1:~$ sudo apt-get install lnav
+liv@dev1:~$ sudo lnav /var/log/postgresql/postgresql-15-main.log
+
+
